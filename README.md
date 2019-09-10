@@ -113,3 +113,7 @@ $ git merge branch branch
 brand new repository
 
 $ git init project-name
+
+shows the commit ancestry graph
+
+$ git show
