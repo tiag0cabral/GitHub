@@ -114,6 +114,12 @@ brand new repository
 
 $ git init project-name
 
+
 shows the commit ancestry graph
 
 $ git show
+
+
+delete a branch
+
+$ git branch -D branch
