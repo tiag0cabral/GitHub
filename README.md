@@ -123,3 +123,8 @@ $ git show
 delete a branch
 
 $ git branch -D branch
+
+
+store your passwords
+
+$ git config credential.helper store
