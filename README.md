@@ -42,7 +42,7 @@ $ git push -u origin master
 
 undo changes to unstaged files
 
-$ git checkout -- filename
+$ git checkout commit-id -- filename
 
 
 accidentally mistype a commit message
