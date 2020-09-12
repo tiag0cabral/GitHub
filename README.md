@@ -128,3 +128,7 @@ $ git branch -D branch
 store your passwords
 
 $ git config credential.helper store
+
+shows the difference between staging and working directory
+
+$ git diff
