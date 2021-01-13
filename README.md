@@ -1,9 +1,10 @@
 first step
 
+```sh
 $ git config --global user.email "your email"
 
 $ git config --global user.name "your username"
-
+```
 
 see how Git is configured
 
