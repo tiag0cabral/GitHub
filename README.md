@@ -155,3 +155,5 @@ shows the difference between staging and working directory
 ```sh
 $ git diff
 ```
+
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tiag0cabral/GitHub/issues)
