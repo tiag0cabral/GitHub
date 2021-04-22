@@ -156,4 +156,4 @@ shows the difference between staging and working directory
 $ git diff
 ```
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tiag0cabral/GitHub/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tiag0cabral/GitHub/issues)
