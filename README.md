@@ -66,6 +66,10 @@ $ git log --oneline
 $ git reset --hard xxxxxxx
 ```
 
+```sh
+$ git push --force
+```
+
 **syncing a local directory with an existing git repository**
 
 ```sh
