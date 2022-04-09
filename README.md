@@ -1,4 +1,4 @@
-first step
+**first step**
 
 ```sh
 $ git config --global user.email "your email"
@@ -6,13 +6,13 @@ $ git config --global user.email "your email"
 $ git config --global user.name "your username"
 ```
 
-see how Git is configured
+**see how Git is configured**
 
 ```sh
 $ git config --list
 ```
 
-local directory
+**local directory**
 
 ```sh
 $ git init 
@@ -32,7 +32,7 @@ $ git status
 $ git push -u origin master 
 ```
 
-management
+**management**
 
 ```sh
 $ git status
@@ -44,31 +44,35 @@ $ git commit -m "Comments"
 $ git push -u origin master
 ```
 
-undo changes to unstaged files
+**undo changes to unstaged files**
 
 ```sh
 $ git checkout commit-id -- filename
 ```
 
-accidentally mistype a commit message
+**accidentally mistype a commit message**
 
 ```sh
 $ git commit --amend -m "New message"
 ```
 
-revert addition
+**revert addition**
 
 ```sh
-$ git reset
+$ git log --oneline
 ```
 
-syncing a local directory with an existing git repository
+```sh
+$ git reset --hard xxxxxxx
+```
+
+**syncing a local directory with an existing git repository**
 
 ```sh
 $ git pull
 ```
 
-delete local and remote directory
+**delete local and remote directory**
 
 ```sh
 $ git pull
@@ -80,7 +84,7 @@ $ git commit -m "Removing directory"
 $ git push -u origin master
 ```
 
-cloning repository
+**cloning repository**
 
 ```sh
 $ git clone git://github.com/user/repository.git
@@ -88,25 +92,25 @@ $ git clone git://github.com/user/repository.git
 $ git remote set-url origin git@github.com:user/repository.git
 ```
 
-shows the remote's URLs
+**shows the remote's URLs**
 
 ```sh
 $ git remote -v
 ```
 
-view a repository's history
+**view a repository's history**
 
 ```sh
 $ git log
 ```
 
-view a specific file's history
+**view a specific file's history**
 
 ```sh
 $ git log path
 ```
 
-switch from one branch to another
+**switch from one branch to another**
 
 ```sh
 $ git branch
@@ -114,43 +118,45 @@ $ git branch
 $ git checkout branch-name
 ```
 
-create a branch
+**create a branch**
 
 ```sh
 $ git checkout -b branch-name
 ```
 
-merging two branches
+**merging two branches**
 
 ```sh
 $ git merge branch branch
 ```
 
-brand new repository
+To exit Vim: press Esc, then type :q! and hit Enter
+
+**brand new repository**
 
 ```sh
 $ git init project-name
 ```
 
-shows the commit ancestry graph
+**shows the commit ancestry graph**
 
 ```sh
 $ git show
 ```
 
-delete a branch
+**delete a branch**
 
 ```sh
 $ git branch -D branch
 ```
 
-store your passwords
+**store your passwords**
 
 ```sh
 $ git config credential.helper store
 ```
 
-shows the difference between staging and working directory
+**shows the difference between staging and working directory**
 
 ```sh
 $ git diff
